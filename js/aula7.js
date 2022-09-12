@@ -30,8 +30,10 @@
     for (const element of frutasTropicais) {
           console.log(element);
     }
-    let contador = 0;
+    
     // Exemplo usando while
+    let contador = 0;
+    
     console.log('Tamanho do array',frutasTropicais.length);
     while(contador<frutasTropicais.length){
         console.log(frutasTropicais[contador]);
